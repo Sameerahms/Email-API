@@ -1,0 +1,15 @@
+{
+  "patient": {
+    "name": "Sarath Silva",
+    "age": 49
+  },
+  "prescriptionDrugs": 
+    [
+      {"drugId": "10", "weight": "2.5mg", "frequency": "mane", "duration": "2weeks"},
+      {"drugId": "8", "weight": "200mg", "frequency": "BD", "duration": "1month"},
+      {"drugId": "4", "weight": "5mg", "frequency": "nocte", "duration": "1month"},
+      {"drugId": "5", "weight": "40mg", "frequency": "nocte", "duration": "1month"}
+    ],
+  "note": "In a stable condition",
+  "createdBy": "Doctor Doo Little"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="epWebAPI">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="epCommon.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/epCommon/epCommon">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="epEntity.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/epEntity/epEntity">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="epServices.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/epServices/epServices">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.0.4.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/epServices/lib/commons-logging-1.0.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-io-2.5.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/epServices/lib/commons-io-2.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpclient-4.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/epServices/lib/httpclient-4.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dom4j-1.6.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/epServices/lib/dom4j-1.6.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpcore-4.2.4.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/epServices/lib/httpcore-4.2.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gson-extras-0.2.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/MobiosDev/Java/medicaAPI/epserver/epServices/lib/gson-extras-0.2.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsr250-api-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/MobiosDev/Java/medicaAPI/epserver/epServices/lib/jsr250-api-1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gson-2.2.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/MobiosDev/Java/medicaAPI/epserver/epServices/lib/gson-2.2.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="api"/>
+        <property name="java-output-path" value="/epWebAPI/build/classes"/>
+    </wb-module>
+</project-modules>
